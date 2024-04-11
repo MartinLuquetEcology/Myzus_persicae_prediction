@@ -7,7 +7,7 @@ Author: Martin LUQUET
 
 Contact information : martin.luquet.pro@gmail.com, martin.luquet@inrae.fr (prefer the first one)
 
-This repository includes all of the R scripts and data files required to reproduce the analyses and figures presented in the paper "Predicting the seasonal flight activity of Myzus persicae, the main aphid vector of Virus Yellows in sugar beet" from Luquet et al. 2023 in Pest Management Science.
+The repository includes all of the R scripts and data files required to reproduce the analyses and figures presented in the paper "Predicting the seasonal flight activity of Myzus persicae, the main aphid vector of Virus Yellows in sugar beet" from Luquet et al. 2023 in Pest Management Science.
 Weather data is missing, as we are not allowed to share them, but the structure of these data is explained (see below).
 
 ## Quick overview of the main repository
