@@ -9,6 +9,7 @@ Contact information : martin.luquet.pro@gmail.com, martin.luquet@inrae.fr (prefe
 
 The repository includes all of the R scripts and data files required to reproduce the analyses and figures presented in the paper "Predicting the seasonal flight activity of Myzus persicae, the main aphid vector of Virus Yellows in sugar beet" from Luquet et al. 2023 in Pest Management Science.
 Weather data is missing, as we are not allowed to share them, but the structure of these data is explained (see below).
+**UPDATE** : weather data is now available as it was made public by Meteo-France. You can find them here : https://meteo.data.gouv.fr/datasets/6569b27598256cc583c917a7 Datasets are heavy and their retreival might be challenging though.
 
 ## Quick overview of the main repository
 
@@ -40,6 +41,7 @@ Weather data is missing, as we are not allowed to share them, but the structure 
 -   The folder 'Bash_scripts' includes the Bash Scripts sent to the HPC cluster hosted by GenOuest (https://www.genouest.org/)
 -   The folder 'Data' includes the data presented in the paper. This includes aphid flight data coming from the Agraphid suction trap network, as well as GIS data to produce France maps. This also includes metadata and applicable licenses.
 	- Note that this does NOT include the meteorological data coming from the SAFRAN system that we used in the analysis. We are not allowed to share this data hosted by Météo-France. See next section ('Data & metadata files') and 'Data/weather_data/README_weather_data.txt'.
+  	- **UPDATE** : weather data is now available as it was made public by Meteo-France. You can find them here : https://meteo.data.gouv.fr/datasets/6569b27598256cc583c917a7 Datasets are heavy and their retrieval might be challenging though.
 -   The folder 'Figures' includes the figures from the paper
 -   The folder 'Outputs' is empty, but is meant to store all outputs generated from the analysis. It is empty here as it represents several Go but if the analysis is reproduced, outputs will automatically be stored here.
 -   The folder 'Processed_data' includes processed data generated throughout the analysis.
@@ -69,6 +71,7 @@ The 'Data' folder includes:
 - The 'weather_data' folder containing a unique .txt file, 'README_weather_data.txt'.
 	- Initially, it contained two .RDS files, 'cumulated_sums.RDS' and 'cumulated_sums_all.RDS', contaning the weather data used in the analysis. These contained R lists storing cumulative temperature and mean precipitation over various periods.
 	- This data is confidential (Météo-France) and cannot be shared.
+  	- **UPDATE** : weather data is now available as it was made public by Meteo-France. You can find them here : https://meteo.data.gouv.fr/datasets/6569b27598256cc583c917a7 Datasets are heavy and their retrieval might be challenging though.
 	- The precise content of these .RDS files, as well as the list structure needed to reproduce this analysis is explained in 'README_weather_data.txt'.
 
 - Three .csv files containing data from the Agraphid suction trap network.
